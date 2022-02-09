@@ -1,0 +1,55 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+.header-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #1F2937;
+    margin: 0px;
+    
+}
+.Cali
+{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 80px;
+    font-weight: 800;
+    
+}
+.Ny
+{
+    margin-left: auto;
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 25px;
+}
+.ut
+{
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-right: 80px;
+    
+}
+.fl
+{
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 25px;
+}
+.this-website
+{
+    background-color: #1F2937;
+    font-size: 48px;
+    color: #f9faf9;
+    padding-top: 50px;
+    font-weight: 800;
+    
+}
