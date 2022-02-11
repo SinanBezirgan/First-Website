@@ -46,10 +46,196 @@ body
 }
 .this-website
 {
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
-    font-size: 48px;
     color: #f9faf9;
-    padding-top: 50px;
-    font-weight: 800;
+    padding-top: 100px;
+    gap: 1px;
+   
+    max-height: 300px;
+    min-height: 300px;
+    
+    
     
 }
+.baslik
+{
+    font-weight: 800;
+    font-size: 48px;
+    padding-left: 80px;
+    max-width: 300px;
+    margin-bottom: -1px;
+}
+p{
+    padding-left: 80px;
+    font-size: 18px;
+    max-width: 250px;
+    color: #e5e7eb;
+    padding-bottom: 10px;
+    margin-bottom: -1px;
+   
+}
+.button
+{
+    color: #f7fafd;
+    border-style: none;
+    align-self: flex-start;
+    padding: 5px 15px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 3px;
+    background-color: navy;
+    flex-basis: 3em;
+    border-color: white;
+    
+
+}
+.palm
+{
+    max-width: 300px;
+    max-height: 300px;
+    align-self: flex-end;
+    
+   
+    margin-right: 50px;
+    padding-right: 20px;
+    margin-top: -300px;
+    
+    
+}
+.second-container
+{
+    display: flex;
+    
+    font-size: 36px;
+    font-weight: 800;
+    font-family: sans-serif;
+    justify-content: center;
+    padding-top: 40px;
+}
+.third-container
+{
+    display: flex;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 52px;
+}
+.palmiye
+{
+    border-radius: 4px;
+    border: 3px solid blue;
+    margin: 10px 10px;
+    max-width: 200px;
+    max-height: 300px;
+}
+.york-picture
+{
+    border-radius: 4px;
+    border: 3px solid blue;
+    margin: 10px 10px;
+    max-width: 200px;
+    max-height: 250px;
+    
+}
+.cali-alt-text
+{
+    align-self:center;
+    max-width: 150px;
+    font-family: sans-serif;
+    color: grey;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.info
+{
+    max-width: 200px;
+}
+.fourth-container
+{
+    
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-quote
+{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #1f2937;
+    max-width: 900px;
+    font-style: italic;
+}
+.thor
+{
+    
+    align-self: flex-end;
+    margin-right: 550px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.fifth-container
+{
+    background-color: #3b82f6;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.son-kez
+{
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.son-kez2
+{
+    padding-left: 100px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: white;
+}
+.son-buton
+{
+    flex-basis: 3em;
+    color: white;
+    background-color: navy;
+    width: 150px;
+    align-self: flex-end;
+    margin-right: 200px;
+    height: 200px;
+    margin-top: -50px;
+    border-radius: 3px;
+    border-color: white;
+}
+.footer
+{
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+    
+}
+.bro
+{
+    
+    
+    margin: 40px 40px;
+}
+    
